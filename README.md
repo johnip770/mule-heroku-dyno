@@ -8,7 +8,7 @@ Additionally the project includes a pre-built Domain project that has an HTTP Li
 
 1. Heroku Account
 1. Mulesoft Anypoint Platform Account
-1. Anypoint Studio
+1. Anypoint Studio 7.4.2
 
 ## Setup
 
