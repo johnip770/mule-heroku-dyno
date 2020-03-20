@@ -17,7 +17,7 @@ export app_name="your-chosen-app-name"
 ```
 
 ```
-git clone git@github.com:djuang1/mule-dyno.git && cd mule-dyno
+git clone git@github.com:djuang1/mule-heroku-dyno.git && cd mule-heroku-dyno
 heroku create $app_name
 heroku buildpacks:set https://github.com/heroku/heroku-buildpack-jvm-common.git
 heroku buildpacks:add --index 1 https://github.com/heroku/heroku-buildpack-apt
