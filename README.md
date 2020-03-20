@@ -56,24 +56,24 @@ Once deployed you will see your new runtime in Runtime Manager.
 
 ### Custom Mule App Development for your Heroku Mule Runtime
 
-Import the Domain project into your Anypoint Studio:
+Import the Domain project into your Anypoint Studio. This only needs to be done once:
 
 1. Open Anypoint Studio
-1. File -> Import, Select Pacakged mule application (.jar) and hit "Next"
+1. File -> Import, Anypoint Studio > Select Packaged mule application (.jar) and hit "Next"
 1. Browse to the `Domain-Listener-1.0.0-SNAPSHOT-mule-domain.jar` file located under the domains folder of the project
 
-In your existing project or new project that you plan to deploy to the Heroku Mule Runtime, you need to change the Domain from default to the imported domain project
+In your existing project or new project that you plan to deploy to the Heroku Mule Runtime, you need to change the Domain from `default` to the imported domain project
 
-1. In Anypoint Studio, right click on the root directory of your mule app in Package Explorer and select "Properties"
-1. Select "Mule Project" in the left sub-menu and from the "Domain" drop down select `domain-listener-1.0.0-snapshot-mule-domain`, hit Apply and Close
+1. In Anypoint Studio, right click on the root directory of your mule app in Package Explorer and select `Properties`
+1. Select `Mule Project` in the left sub-menu and from the "Domain" drop down select `domain-listener-1.0.0-snapshot-mule-domain`, hit Apply and Close
 
 Now your app is configured with the same domain that the Heroku Mule Runtime uses.
 
-When you create a new listener in the app you can select the "Http_Listener_config" option in Basic Settings -> Connector Configuration
+When you create a new HTTP listener in the app you can select the "Http_Listener_config" option in Basic Settings -> Connector Configuration
 
 ### Deploy your .jar to the Heroku based Mule Runtime
 
 1. Log into Anypoint Platform in the browser and navigate to Runtime Manager -> Applications -> Deploy Application
-1. Name your application and for "Deployment Target" select your heroku based mule runtime, named $app_name_web.1 (or something similar)
+1. Name your application and for "Deployment Target" select your Heroku based Mule Runtime, named $app_name_web.1 (or something similar)
 1. Select Choose File and browse to your .jar application file that you exported above
 1. Hit "Deploy Application"
