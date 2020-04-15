@@ -39,6 +39,8 @@ Set the following config vars. These are needed for the scripts to understand wh
     heroku config:set MULE_USERNAME="<Anypoint Username>"
 ```
 
+<img src="https://github.com/djuang1/djuang1.github.io/blob/master/img/mule-heroku-dyno/config_vars.png?raw=true" width="500px">
+
 ## Deploy Runtime to Heroku
 ```
     git push heroku master
@@ -68,9 +70,7 @@ In the `domains` folder is the Domain project that has the shared `HTTP Listener
 
 In your existing project or new project that you plan to deploy to the Heroku Mule Runtime, you need to change the Domain from `default` to the imported domain project
 
-<img src="https://github.com/djuang1/djuang1.github.io/blob/master/img/mule-heroku-dyno/project_properties.png?raw=true">
-
-![](https://github.com/djuang1/djuang1.github.io/blob/master/img/mule-heroku-dyno/project_properties.png?raw=true|width=100)
+<img src="https://github.com/djuang1/djuang1.github.io/blob/master/img/mule-heroku-dyno/project_properties.png?raw=true" width="500px">
 
 1. In Anypoint Studio, right click on the root directory of your mule app in Package Explorer and select `Properties`
 1. Select `Mule Project` in the left sub-menu and from the "Domain" drop down select `domain-listener-1.0.0-snapshot-mule-domain`, hit Apply and Close
