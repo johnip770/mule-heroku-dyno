@@ -6,9 +6,10 @@ The project includes a pre-built Domain project that has an HTTP Listener that l
 
 ## Requirements
 
-1. Heroku Account
-1. Mulesoft Anypoint Platform Account
-1. Anypoint Studio 7.4.2
+1. [Heroku Account](https://dashboard.heroku.com/)
+1. [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+1. [Mulesoft Anypoint Platform Account](https://anypoint.mulesoft.com/login/)
+1. [Anypoint Studio 7.4.2](https://www.mulesoft.com/lp/dl/studio)
 
 ## Setup
 
