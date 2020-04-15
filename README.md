@@ -39,6 +39,8 @@ Set the following config vars. These are needed for the scripts to understand wh
     heroku config:set MULE_USERNAME="<Anypoint Username>"
 ```
 
+Additionally you can also go into the `Settings` tab of your app in Heroku and enter those values in the `Config Vars` section.
+
 <img src="https://github.com/djuang1/djuang1.github.io/blob/master/img/mule-heroku-dyno/config_vars.png?raw=true" width="500px">
 
 ## Deploy Runtime to Heroku
@@ -78,10 +80,3 @@ In your existing project or new project that you plan to deploy to the Heroku Mu
 Now your app is configured with the same domain that the Heroku Mule Runtime uses.
 
 When you create a new HTTP listener in the app you can select the "Http_Listener_config" option in Basic Settings -> Connector Configuration
-
-### Deploy your .jar to the Heroku based Mule Runtime
-
-1. Log into Anypoint Platform in the browser and navigate to Runtime Manager -> Applications -> Deploy Application
-1. Name your application and for "Deployment Target" select your Heroku based Mule Runtime, named $app_name_web.1 (or something similar)
-1. Select Choose File and browse to your .jar application file that you exported above
-1. Hit "Deploy Application"
