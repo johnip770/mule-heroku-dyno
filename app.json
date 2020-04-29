@@ -14,19 +14,23 @@
       ],
     "env": {
         "MULE_ENV": {
-          "description": "Anypoint Environment Name",
+          "description": "Anypoint Platform Environment name",
           "required": "true"
         },
         "MULE_ORG": {
-          "description": "Anypoint Organization Name",
+          "description": "Anypoint Platform Organization name",
           "required": "true"
         },
         "MULE_USERNAME": {
-          "description": "Anypoint Username",
+          "description": "Anypoint Platform username",
           "required": "true"
         },
         "MULE_PASSWORD": {
-          "description": "Anypoint Password",
+          "description": "Anypoint Platform password",
+          "required": "true"
+        },
+        "HEROKU_APP_NAME": {
+          "description": "Name for server when registered with Runtime Manager",
           "required": "true"
         }
       }
