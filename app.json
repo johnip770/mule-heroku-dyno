@@ -1,5 +1,5 @@
 {
-    "name": "MuleSoft Anypoint Platform Mule Runtime",
+    "name": "MuleSoft Anypoint Platform Runtime",
     "description": "Deploys a Mule Runtime on Heroku",
     "repository": "https://github.com/djuang1/mule-heroku-dyno",
     "logo": "https://raw.githubusercontent.com/djuang1/djuang1.github.io/master/img/mule-heroku-dyno/logo.svg",
@@ -14,7 +14,7 @@
           "required": "true"
         },
         "MULE_USERNAME": {
-          "description": "Anypoint Userame",
+          "description": "Anypoint Username",
           "required": "true"
         },
         "MULE_PASSWORD": {
