@@ -4,6 +4,8 @@ This projects deploys a Mule 4.2.2 Runtime to a Heroku Dyno and handles the regi
 
 The project includes a pre-built Domain project that has an HTTP Listener that leverages the `PORT` that is assigned when the Dyno is deployed using the `Procfile`. 
 
+Additionally you can click on the button below to deploy Mule to Heroku without leaving the web browser, and with little or no configuration. 
+  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Requirements
